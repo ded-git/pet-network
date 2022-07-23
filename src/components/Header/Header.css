@@ -1,0 +1,17 @@
+.header {
+    position: relative;
+    grid-column-start: 1;  
+    grid-column-end: 3;
+    border: 3px red solid;
+    align-items: center;
+}
+
+.header img {
+    width: 50px;
+    margin-left: 50px;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}

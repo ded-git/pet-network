@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Diduh';
+  src: url('./fonts/Diduh-Regular.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Krasnopys';
+  src: url('./fonts/KrasnopysChebanyk-Regular.otf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Rutenia';
+  src: url('./fonts/Rutenia.otf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-wrapper {
+  display: grid;
+  grid-template: 1fr 3fr/ 100px 1fr;
+  grid-gap: 10px;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(34,158,231, 0.8);
+  font-family: 'Diduh';
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
